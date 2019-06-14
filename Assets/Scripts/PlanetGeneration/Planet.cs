@@ -29,7 +29,7 @@ public class Planet : MonoBehaviour
         shapeGenerator.UpdateSettings(shapeSettings);
         colorGenerator.UpdateSettings(colorSettings);
 
-        if (meshFilters == null || meshFilters.Length ==0)
+        if (meshFilters == null || meshFilters.Length == 0)
         {
             meshFilters = new MeshFilter[6];
         }
